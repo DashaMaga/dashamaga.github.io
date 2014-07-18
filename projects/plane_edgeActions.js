@@ -9,6 +9,8 @@
 //=========================================================
 
 //Edge symbol: 'pl'
-(function(symbolName){})("pl");
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2000,function(sym,e){sym.play("loop");});
+//Edge binding end
+})("pl");
 //Edge symbol end:'pl'
 })(jQuery,AdobeEdge,"EDGE-4255486");
